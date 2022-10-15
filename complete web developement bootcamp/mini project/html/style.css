@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg4.jpg');
+    background-size: 1536px;
+}
+
+.left {
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+
+
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+     /* margin: yaxis xaxis  */
+    /* border: 2px solid rgb(81, 182, 240); */
+
+    /* background-color: #e72a3c; */
+
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    /* absolute takes it to full right */
+    right: 34px;
+    background-color: black;
+    top: 0px;
+    margin: 12px;
+
+
+}
+
+.btn {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 1px solid skyblue; */
+    border-radius: 3px;
+}
+
+.btn:hover {
+    color: lightpink;
+}
+
+.btn a:hover {
+    color: grey;
+}
+
+.btn a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background-color: black;
+    color: rgb(158, 195, 228);
+
+}
+
+.navbar {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar li a {
+    color: rgb(99, 198, 238);
+    text-decoration: none;
+    padding: 20px 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar li a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    color: rgb(50, 218, 218);
+    text-align: center;
+    margin: 50px 495px;
+    padding: 31px 20px;
+    border-radius: 12px;
+    width: 33%;
+}
+
+.container h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+    
+}
+
+.form input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 20px;
+    margin: 3px 3px;
+    text-align: center;
+    width: 150px;
+    border-radius: 12px;
+}
+.container button{
+    width:33%;
+    border-radius: 12px;
+}

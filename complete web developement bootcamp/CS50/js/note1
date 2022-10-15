@@ -1,0 +1,21 @@
+we will use javascript as a client as well as side server language
+javascript adds life into the website
+we have to make some calculations in the client's computer itself.
+asyncronous javascript and xml request u can send.
+to send info to the server from the client
+javascript can execute nnot only in the browser but also on the server.
+in browser what js can do-->
+1. Add new HTML and change exsisting HTML from DOM.
+2. React to events - response  from server ,key pressed , mouse movement
+3. AJAX requests
+4. Get and set cookies and using local strorage.
+in browser what js can not do-->
+1. read/write to and from computer hard disk
+ API - Application programming interface
+ supports major modern browsers.
+
+JS VERSIONS -->
+maintained by community
+ECMA --> 1997
+
+

@@ -1,0 +1,11 @@
+python web framework helps to make dynamic web application
+makes it change itself its no more static like before.generates html and css automatically
+HTTP hyper text tansfer protocol for how messages will be sent accross the internet back and forth .... user/client , server is going to contain web application client is going to request to that server and the server is going to respond accordingly .
+REQUEST--->
+GET/HTTP/1.1
+Host: www.example.com
+RESPONSE FROM SERVER --->
+HTTP/1.1 200 OK
+Content-type : text/html
+200 ok is a status code ,,.... some more status codes are 404 not found , 403 forbidden lol , 500 server error.
+Django is a web framework

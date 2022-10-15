@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility</title>
+    <style>
+        .box{
+            border: 2px solid black;
+        }
+        #box1{
+            
+            position: relative;
+            background-color: aqua;
+            height: 40px;
+            width:40px;
+            top: 30px;
+            z-index: 10;
+        }
+        #box2{
+            top: 0px;
+            z-index: 5;
+            position: relative;
+            background-color: red;
+            height: 40px;
+            width:40px;
+             /* zindex decides which element overlaps which elemen,higher zindex indicates higher priority t o come on top.         
+              z-index: will only work for position relative absolute fixed or sticky; */
+            /* visibility: hidden; reserves space but display none does not reserve space*/
+            /* display: none; */
+            
+
+        }
+        #box3{
+            background-color: greenyellow;
+            height: 40px;
+            width:40px;
+        }
+        #box4{
+            background-color: orange;
+            height: 40px;
+            width:40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- div.box#box$*4 -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

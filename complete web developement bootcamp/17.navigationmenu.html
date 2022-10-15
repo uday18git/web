@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"
+\
+>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+      .navbar{
+        background-color:black;
+        
+      }
+      /* this wont work initially ,background color...bcos it has overflowed from its parent so to avoid it ---> */
+      .navbar ul{
+        overflow: auto;
+        margin:60px ;
+      }
+      .navbar li{ float:left;
+            list-style:none;
+            color: aliceblue;
+            margin: 10px;
+            padding: 2px;
+          }
+      .navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .navbar li a:hover{
+        color:aqua;
+        
+      }
+      .search{
+        
+        float: right;
+        padding: 8px ;
+      }
+      
+      #search{
+        padding: 2px 2px;
+        border-radius: 10px;
+        color:black;
+        
+      }
+      
+      #search:hover{
+        background-color:lightgray;        
+      }
+      ::placeholder {
+  color: black;
+  opacity: 1; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"><em>Home</em></a></li>
+                <li><a href="#"><em>About</em></a></li>
+                <li><a href="#"><em>Services</em></a></li>
+                <li><a href="#"><em>Contact Us</em></a></li>
+                <div class="search">
+                  <input type="text" name="search" id="search" placeholder="Search this website" >
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
